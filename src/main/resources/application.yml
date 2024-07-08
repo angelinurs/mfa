@@ -1,0 +1,107 @@
+
+spring:
+  profiles:
+    active: local
+    
+  application:
+    name: mfa
+    
+  datasource:
+    driverClassName: org.h2.Driver
+    # In-Memory mode
+    url: jdbc:h2:mem:test;NON_KEYWORDS=USER,ORDER,DOSO
+    # Embedded mode
+#    url: jdbc:h2:~/test;NON_KEYWORDS=USER,ORDER,DOSO
+    username: naru
+    password: naru0914
+    
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    # 아래의 설정은 더이상 불필요
+#    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      # DB 초기화 전략 (none, create, create-drop, update, validate)
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+      # 아래의 설정은 더이상 불필요
+#        dialect: org.hibernate.dialect.H2Dialect
+        jdbc:
+          batch_size: 20
+        order_inserts: true
+        format_sql: true
+        use_sql_comments: true
+    defer-datasource-initialization: true
+    open-in-view: false
+    
+  springdoc:
+    # default url:  http://localhost:8080/swagger-ui/index.html
+    swagger-ui:
+      groups-order: DESC
+      tags-sorter: alpha
+      operations-sorter: method
+      disable-swagger-default-url: true
+      display-request-duration: true
+      defaultModelsExpandDepth: 2
+      defaultModelExpandDepth: 2
+    api-docs:
+      path: /api-docs
+    show-actuator: true<
+    default-consumes-media-type: application/json
+    default-produces-media-type: application/json
+    writer-with-default-pretty-printer: true
+    model-and-view-allowed: true
+    paths-to-match:
+      - /api/v1/**
+        
+server:
+  port: 8080
+    
+#logging:
+##  config:
+#  level:
+#    com:
+#      error
+#  file: 
+#    path: /${spring.application.name}/logs
+#    name: error.log
+---
+# local
+spring:
+  config:
+    activate:
+      on-profile: local
+#    import: "classpath:application-local.yml"
+  jpa:  
+    show-sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug 
+  
+---
+# dev
+spring:
+  config:
+    activate:
+      on-profile: dev
+#    import: "classpath:application-dev.yml"
+  jpa:  
+    show-sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+---
+# prod
+spring:
+  profiles:
+    active: prod
+#  config:
+#    activate:
+#      on-profile: prod
+#    import: "classpath:application-prod.yml"

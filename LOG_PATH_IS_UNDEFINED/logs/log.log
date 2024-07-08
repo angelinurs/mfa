@@ -1,0 +1,378 @@
+2024-07-08 16:22:04.924  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:22:04.925  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:22:05.123  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:22:05.132  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-07-08 16:22:05.209  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:22:05.210  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:22:05.210  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:22:05.238  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:22:05.238  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 312 ms
+2024-07-08 16:22:05.251  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-08 16:22:05.252  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:22:05.253  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-08 16:22:05.253  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:22:05.279  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:22:05.282  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:22:05.290  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:22:05.324  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:22:05.327  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:22:05.493  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:22:05.511  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:22:05.528  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:22:05.532  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.763 seconds (process running for 48.659)
+2024-07-08 16:22:05.536  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:25:30.810  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-08 16:25:32.593  INFO 27188 --- [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:25:32.595  INFO 27188 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-07-08 16:25:32.595  INFO 27188 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-07-08 16:25:32.700  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:25:32.700  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:25:32.904  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:25:32.912  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-07-08 16:25:32.987  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:25:32.988  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:25:32.988  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:25:33.013  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:25:33.014  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 312 ms
+2024-07-08 16:25:33.024  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-07-08 16:25:33.026  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:25:33.026  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-07-08 16:25:33.027  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:25:33.046  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:25:33.049  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:25:33.055  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:25:33.094  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:25:33.096  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:25:33.239  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:25:33.258  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:25:33.269  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:25:33.273  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.613 seconds (process running for 256.4)
+2024-07-08 16:25:33.275  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:26:03.885  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-08 16:26:05.527  INFO 27188 --- [      Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:26:05.530  INFO 27188 --- [      Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-07-08 16:26:05.530  INFO 27188 --- [      Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-07-08 16:26:05.627  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:26:05.627  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:26:05.807  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:26:05.815  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-07-08 16:26:05.889  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:26:05.890  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:26:05.890  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:26:05.917  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:26:05.917  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 288 ms
+2024-07-08 16:26:05.926  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-07-08 16:26:05.928  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:26:05.928  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-07-08 16:26:05.928  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:26:05.947  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:26:05.950  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:26:05.958  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:26:05.995  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:26:05.997  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:26:06.151  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:26:06.171  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:26:06.182  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:26:06.187  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.593 seconds (process running for 289.313)
+2024-07-08 16:26:06.189  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:26:36.997  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:26:38.805  INFO 27188 --- [      Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:26:38.808  INFO 27188 --- [      Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-07-08 16:26:38.809  INFO 27188 --- [      Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-07-08 16:26:38.928  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:26:38.928  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:26:39.140  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:26:39.148  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-07-08 16:26:39.231  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:26:39.231  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:26:39.231  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:26:39.257  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:26:39.257  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 327 ms
+2024-07-08 16:26:39.265  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-07-08 16:26:39.267  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:26:39.267  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-07-08 16:26:39.267  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:26:39.286  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:26:39.289  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:26:39.296  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:26:39.333  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:26:39.335  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:26:39.488  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:26:39.508  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:26:39.519  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:26:39.524  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.634 seconds (process running for 322.651)
+2024-07-08 16:26:39.526  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:29:01.748  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-08 16:29:03.466  INFO 27188 --- [      Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:29:03.467  INFO 27188 --- [      Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-07-08 16:29:03.468  INFO 27188 --- [      Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-07-08 16:29:03.566  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:29:03.566  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:29:03.748  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:29:03.757  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-07-08 16:29:03.828  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:29:03.829  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:29:03.829  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:29:03.855  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:29:03.855  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 287 ms
+2024-07-08 16:29:03.863  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-07-08 16:29:03.864  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:29:03.864  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-07-08 16:29:03.864  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:29:03.883  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:29:03.885  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:29:03.895  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:29:03.934  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:29:03.937  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:29:04.090  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:29:04.108  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:29:04.117  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:29:04.122  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.586 seconds (process running for 467.249)
+2024-07-08 16:29:04.123  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:29:13.704  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:29:15.434  INFO 27188 --- [      Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:29:15.436  INFO 27188 --- [      Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-07-08 16:29:15.436  INFO 27188 --- [      Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-07-08 16:29:15.528  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:29:15.528  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:29:15.712  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:29:15.722  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-07-08 16:29:15.800  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:29:15.800  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:29:15.800  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:29:15.826  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:29:15.826  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 296 ms
+2024-07-08 16:29:15.837  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-07-08 16:29:15.839  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:29:15.839  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-07-08 16:29:15.839  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:29:15.860  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:29:15.863  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:29:15.870  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:29:15.909  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:29:15.910  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:29:16.057  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:29:16.076  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:29:16.088  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:29:16.093  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.596 seconds (process running for 479.219)
+2024-07-08 16:29:16.094  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:29:40.973  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:29:42.668  INFO 27188 --- [      Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:29:42.669  INFO 27188 --- [      Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-07-08 16:29:42.670  INFO 27188 --- [      Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-07-08 16:29:42.758  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:29:42.758  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:29:43.000  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:29:43.011  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-07-08 16:29:43.088  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:29:43.089  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:29:43.089  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:29:43.116  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:29:43.116  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 356 ms
+2024-07-08 16:29:43.124  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-07-08 16:29:43.126  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn70: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:29:43.126  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-07-08 16:29:43.126  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:29:43.144  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:29:43.146  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:29:43.152  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:29:43.181  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:29:43.188  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:29:43.332  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:29:43.350  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:29:43.364  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:29:43.368  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.637 seconds (process running for 506.495)
+2024-07-08 16:29:43.369  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:30:28.654  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:30:30.296  INFO 27188 --- [      Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:30:30.297  INFO 27188 --- [      Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-07-08 16:30:30.298  INFO 27188 --- [      Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-07-08 16:30:30.387  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:30:30.388  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:30:30.557  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:30:30.565  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-07-08 16:30:30.631  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:30:30.632  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:30:30.632  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:30:30.656  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:30:30.656  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 267 ms
+2024-07-08 16:30:30.663  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-07-08 16:30:30.664  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection conn80: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:30:30.664  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-07-08 16:30:30.664  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:30:30.683  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:30:30.685  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:30:30.691  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:30:30.724  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:30:30.730  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:30:30.872  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:30:30.888  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:30:30.898  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:30:30.902  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.543 seconds (process running for 554.029)
+2024-07-08 16:30:30.904  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:30:58.888  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:31:00.615  INFO 27188 --- [      Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:31:00.617  INFO 27188 --- [      Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-07-08 16:31:00.618  INFO 27188 --- [      Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-07-08 16:31:00.721  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:31:00.721  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:31:00.902  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:31:00.911  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-07-08 16:31:00.983  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:31:00.984  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:31:00.984  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:31:01.010  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:31:01.010  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 288 ms
+2024-07-08 16:31:01.021  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-07-08 16:31:01.023  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn90: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:31:01.023  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-07-08 16:31:01.024  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:31:01.044  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:31:01.046  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:31:01.052  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:31:01.079  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:31:01.081  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:31:01.221  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:31:01.238  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:31:01.248  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:31:01.253  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.563 seconds (process running for 584.38)
+2024-07-08 16:31:01.255  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:33:34.525  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:33:36.163  INFO 27188 --- [      Thread-40] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:33:36.164  INFO 27188 --- [      Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-07-08 16:33:36.164  INFO 27188 --- [      Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-07-08 16:33:36.254  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:33:36.254  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:33:36.420  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:33:36.427  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-07-08 16:33:36.491  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:33:36.492  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:33:36.492  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:33:36.515  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:33:36.516  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 261 ms
+2024-07-08 16:33:36.523  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-07-08 16:33:36.525  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection conn100: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:33:36.525  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-07-08 16:33:36.525  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:33:36.543  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:33:36.545  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:33:36.551  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:33:36.579  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:33:36.581  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:33:36.727  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:33:36.744  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:33:36.757  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:33:36.761  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.534 seconds (process running for 739.888)
+2024-07-08 16:33:36.762  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:34:42.975  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:34:44.632  INFO 27188 --- [      Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:34:44.634  INFO 27188 --- [      Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-07-08 16:34:44.634  INFO 27188 --- [      Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-07-08 16:34:44.730  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:34:44.731  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:34:44.915  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:34:44.923  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-07-08 16:34:44.992  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:34:44.992  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:34:44.993  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:34:45.016  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:34:45.016  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 284 ms
+2024-07-08 16:34:45.024  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2024-07-08 16:34:45.025  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection conn110: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:34:45.025  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2024-07-08 16:34:45.025  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:34:45.041  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:34:45.043  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:34:45.049  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:34:45.075  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:34:45.077  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:34:45.216  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:34:45.232  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:34:45.246  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:34:45.253  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.553 seconds (process running for 808.38)
+2024-07-08 16:34:45.255  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:34:48.714  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:34:50.400  INFO 27188 --- [      Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:34:50.401  INFO 27188 --- [      Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2024-07-08 16:34:50.402  INFO 27188 --- [      Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2024-07-08 16:34:50.497  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:34:50.497  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:34:50.671  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:34:50.679  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-07-08 16:34:50.751  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:34:50.751  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:34:50.751  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:34:50.777  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:34:50.778  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2024-07-08 16:34:50.786  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2024-07-08 16:34:50.787  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection conn120: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:34:50.788  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2024-07-08 16:34:50.788  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:34:50.805  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:34:50.808  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:34:50.814  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:34:50.844  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:34:50.846  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:34:50.991  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:34:51.007  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:34:51.018  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:34:51.023  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.554 seconds (process running for 814.149)
+2024-07-08 16:34:51.024  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:35:10.791  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:35:12.672  INFO 27188 --- [      Thread-52] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:35:12.673  INFO 27188 --- [      Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2024-07-08 16:35:12.674  INFO 27188 --- [      Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2024-07-08 16:35:12.782  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:35:12.782  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:35:12.964  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:35:12.972  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-07-08 16:35:13.045  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:35:13.046  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:35:13.046  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:35:13.070  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:35:13.070  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 287 ms
+2024-07-08 16:35:13.078  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2024-07-08 16:35:13.079  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection conn130: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:35:13.079  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2024-07-08 16:35:13.079  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:35:13.097  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:35:13.100  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:35:13.106  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:35:13.132  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:35:13.134  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:35:13.291  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:35:13.308  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:35:13.318  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:35:13.324  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.569 seconds (process running for 836.45)
+2024-07-08 16:35:13.325  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:35:47.388  INFO 27188 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-08 16:35:49.182  INFO 27188 --- [      Thread-56] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:35:49.183  INFO 27188 --- [      Thread-56] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2024-07-08 16:35:49.184  INFO 27188 --- [      Thread-56] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2024-07-08 16:35:49.280  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Starting MfaApplication using Java 17.0.8.1 with PID 27188 (C:\lab\cloud_lab\conf_server\work\mfa\bin\main started by naru in C:\lab\cloud_lab\conf_server\work\mfa)
+2024-07-08 16:35:49.280  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : The following 1 profile is active: "prod"
+2024-07-08 16:35:49.489  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 16:35:49.498  INFO 27188 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-07-08 16:35:49.576  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08 16:35:49.576  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08 16:35:49.576  INFO 27188 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 16:35:49.604  INFO 27188 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08 16:35:49.604  INFO 27188 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 322 ms
+2024-07-08 16:35:49.612  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2024-07-08 16:35:49.614  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection conn140: url=jdbc:h2:mem:test user=NARU
+2024-07-08 16:35:49.614  INFO 27188 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2024-07-08 16:35:49.614  INFO 27188 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-07-08 16:35:49.632  INFO 27188 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 16:35:49.635  INFO 27188 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08 16:35:49.641  INFO 27188 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 16:35:49.668  INFO 27188 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 16:35:49.670  INFO 27188 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:35:49.873  INFO 27188 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name seUserDetailService
+2024-07-08 16:35:49.901  INFO 27188 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-08 16:35:49.917  INFO 27188 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 16:35:49.924  INFO 27188 --- [  restartedMain] com.naru.mfa.MfaApplication              : Started MfaApplication in 0.67 seconds (process running for 873.05)
+2024-07-08 16:35:49.925  INFO 27188 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-08 16:36:29.159  INFO 27188 --- [n(55)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-08 16:36:30.900  INFO 27188 --- [n(55)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 16:36:30.901  INFO 27188 --- [n(55)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2024-07-08 16:36:30.902  INFO 27188 --- [n(55)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
