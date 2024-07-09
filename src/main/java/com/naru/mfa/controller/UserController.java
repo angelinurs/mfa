@@ -38,5 +38,17 @@ public class UserController {
 		
 		return userRequest.toString();
 	}
+	
+	@PostMapping
+	@Operation( summary = "Fail to login", description = "Fail to login")
+	public String fail() {
+		return "Fail to login!!";
+	}
+	
+	@PostMapping
+	@Operation( summary = "Success to login", description = "Success to login")
+	public String success() {
+		return "success to login!!";
+	}
 
 }

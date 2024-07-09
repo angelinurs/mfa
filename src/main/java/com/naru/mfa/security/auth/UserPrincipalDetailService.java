@@ -12,7 +12,6 @@ import com.naru.mfa.jpa.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 
 
-
 @Slf4j
 @Service
 public class UserPrincipalDetailService implements UserDetailsService {
