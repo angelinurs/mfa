@@ -55,12 +55,15 @@ public class UserSecurityConfig {
 						.loginPage("/login/login")
 						.usernameParameter("username")
 						.passwordParameter("password")
+						// login submit request url
 						.loginProcessingUrl("/login/login-proc")
 						.defaultSuccessUrl("/", true)
 			)
 			.logout(logoutConfig ->
+//				logoutConfig.logoutSuccessUrl("/logout")
 				logoutConfig.logoutSuccessUrl("/")
-			)			
+			)
+			.userDetailsService(userPrincipalDetailService)
 			// for using h2-console 
 			.headers( headerConfig ->
 					headerConfig.frameOptions( FrameOptionsConfig::disable )
